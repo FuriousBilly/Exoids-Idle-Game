@@ -16,20 +16,20 @@ let exoid = {
 }
 
 let store = {
-	photoClasses: 5,
-	hirePhoto: 10,
-	editorCost: 20,
+	photoClasses: 2,
+	hirePhoto: 5,
+	editorCost: 10,
 	hireSocialMedia: 800,
 	lingerie: 50,
 	cosplay: 100
 }
 
 let vegan = {
-	TofuChips: 100,
-	ShepherdPie: 200,
-	BlackPudding: 300,
-	KidneyPie: 400,
-	Haggis: 500
+	TofuChips: 50,
+	ShepherdPie: 100,
+	BlackPudding: 150,
+	KidneyPie: 200,
+	Haggis: 250
 }
 
 function printLogs(){
@@ -219,7 +219,7 @@ var mainGameLoop = window.setInterval(function(){
   bank()
   //console.log(exoid);
 }, 1000)
-
+/*
 var saveGameLoop = window.setInterval(function() {
   localStorage.setItem("ExoidsChallengeSave", JSON.stringify(exoid))
 }, 15000)
@@ -227,4 +227,5 @@ var saveGameLoop = window.setInterval(function() {
 var savegame = JSON.parse(localStorage.getItem("ExoidsChallengeSave"))
 if (savegame !== null) {
   exoid = savegame
-}
+  }
+  */
