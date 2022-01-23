@@ -83,43 +83,48 @@ function hireEditor(){
 }
 
 function TofuChips(){
-	if(exoid.money >= vegan.TofuChips)
+	if(exoid.money >= vegan.TofuChips){
 		exoid.money -= vegan.TofuChips
 		exoid.energy += 10
 		document.getElementById("money").innerHTML = exoid.money + "£ in the bank"
 		document.getElementById("energy").innerHTML = exoid.energy + " Vegan Power"
+	}
 }
 
 function ShepherdPie(){
-	if(exoid.money >= vegan.ShepherdPie)
+	if(exoid.money >= vegan.ShepherdPie){
 		exoid.money -= vegan.ShepherdPie
 		exoid.energy += 20
 		document.getElementById("money").innerHTML = exoid.money + "£ in the bank"
 		document.getElementById("energy").innerHTML = exoid.energy + " Vegan Power"
+	}
 }
 
 function BlackPudding(){
-	if(exoid.money >= vegan.BlackPudding)
+	if(exoid.money >= vegan.BlackPudding){
 		exoid.money -= vegan.BlackPudding
 		exoid.energy += 30
 		document.getElementById("money").innerHTML = exoid.money + "£ in the bank"
 		document.getElementById("energy").innerHTML = exoid.energy + " Vegan Power"
+	}
 }
 
 function KidneyPie(){
-	if(exoid.money >= vegan.KidneyPie)
+	if(exoid.money >= vegan.KidneyPie){
 		exoid.money -= vegan.KidneyPie
 		exoid.energy += 40
 		document.getElementById("money").innerHTML = exoid.money + "£ in the bank"
 		document.getElementById("energy").innerHTML = exoid.energy + " Vegan Power"
+	}
 }
 
 function Haggis(){
-	if(exoid.money >= vegan.Haggis)
+	if(exoid.money >= vegan.Haggis){
 		exoid.money -= vegan.Haggis
 		exoid.energy += 50
 		document.getElementById("money").innerHTML = exoid.money + "£ in the bank"
 		document.getElementById("energy").innerHTML = exoid.energy + " Vegan Power"
+	}
 }
 
 function playLoL(){
