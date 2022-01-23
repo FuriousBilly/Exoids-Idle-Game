@@ -8,13 +8,30 @@
 	<meta name=Copyright 2022, FuriousBilly#7925, All rights reserved.>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-		table, th, td {
-		border: 1px solid black;
+		body {
+			background-image: url('Kayn_0-2.jpg');
+			background-repeat: no-repeat;
+		}
+		th, td {
+			border: 1px solid black;
+			border-radius: 10px;
+			background-color: #F8F8FF
+		}
+		h1 {text-align: center;}
+		p {text-align: center;}
+		div {text-align: center;}
+		td {text-align: center;}
+		h2 {text-align: center;}
+		table {text-align: center;}
+		.center {
+			margin-left: auto;
+			margin-right: auto;
 		}
 	</style>
   </head>
   
   <body style="background-color:powderblue;">
+  
  
 <!--
 	<button onclick="printLogs()">Print Logs</button>
@@ -22,13 +39,13 @@
 -->
 	
 	<header>
-		<h2>Exoid's Climb to Challenger</h2>
+		<h2 style="color:white;">Exoid's Climb to Challenger</h2>
 		<hr>
 	</header>
 		
 		
-	<h2>Stats</h2>
-		<table>
+	<h2 style="color:white;">Stats</h2>
+		<table class="center">
 			<tr>		
 				<td><p id="money">0£ in the Bank </p></td>
 				<td><p id="energy">100 Vegan Power</p></td>
@@ -42,35 +59,47 @@
 	<hr>
 	
 	
-	<table>
+	<table class="center">
+	
+	<style="border:2px solid Violet;>
   <tr>
 	<th>Sister's Only Fan Empire</th>
     <th>Vegan Store</th>
     <th>Cost</th>
-    
+	<th>League of Legends</th>
+    <th>Vegan Power Cost</th>
+	
   </tr>
   <tr>
 	<td><button onclick="photoShoot()">Hold the camera for your sister</button></td>
     <td><button onclick="TofuChips()"id="Chips">Buy Tofu and Chips</button></td>
     <td>£100</td>
+	<td><button onclick="playLoL()">Play a game of League (Cost 25 Vegan Power)</button></td>
+	<td><p id="result">Play a game first</p></td>
     
   </tr>
   <tr>
 	<td><button onclick="studyPhoto()"id="photoClasses">Take Photography Classes £5</button></td>
     <td><button onclick="ShepherdPie()"id="Pie">Buy Vegan Sheperd's Pie</button></td>
     <td>£200</td>
+	<td><button onclick="watch()"id="Watch">Watch Karasmai to improve Judment</button></td>
+	<td><p id="Watch2">Cost 25 Vegan Powers</p></td>
     
   </tr>
   <tr>
 	<td><button onclick="hirePhotographer()"id="hirePhotographer">Hire Photographer £50</button></td>
     <td><button onclick="BlackPudding()"id="Pudding">Buy Vegan Black Pudding</button></td>
     <td>£300</td>
+	<td><button onclick="debate()"id="Debate">Debate on Discord to improve Mental</button></td>
+	<td><p id="Mental2">Cost 25 Vegan Powers</p></td>
     
   </tr>
   <tr>
 	<td><button onclick="hireEditor()"id="hireEditor">Hire Editor £200</button></td>
     <td><button onclick="KidneyPie()"id="Kidney">Buy Vegan Kidney Pie</button></td>
     <td>£400</td>
+	<td><button onclick="practice()"id="Practice">Practice Clear Time</button></td>
+	<td><p id="Practice2">Cost 25 Vegan Powers</p></td>
     
   </tr>
   <tr>
@@ -80,7 +109,7 @@
     
   </tr>
 </table>
-	
+<!--	
 	<hr>
 	
 	<button onclick="playLoL()">Play a game of League (Cost 25 Vegan Power)</button>
@@ -95,10 +124,12 @@
 	<button onclick="practice()"id="Practice">Practice Clear Time</button>
 	<p id="Practice2">Cost 25 Vegan Powers</p>
 	
-	<script src="main.js" charset="utf-8" type="text/javascript"></script>
+	
 	
 	</section>
 	 <img src="Kayn_0-2.jpg">
+-->
+	<script src="main.js" charset="utf-8" type="text/javascript"></script>
   </body>
   
 </html>

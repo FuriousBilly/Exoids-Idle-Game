@@ -17,8 +17,8 @@ let exoid = {
 
 let store = {
 	photoClasses: 5,
-	hirePhoto: 50,
-	editorCost: 100,
+	hirePhoto: 20,
+	editorCost: 50,
 	hireSocialMedia: 800,
 	lingerie: 50,
 	cosplay: 100
